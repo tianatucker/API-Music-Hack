@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
+h4 {
+	text-align: initial;
+	padding-left: 10%;
+}
+
 li {
   font-size: 1.5em;
   margin: 0 25%;
@@ -22,6 +27,10 @@ input[type="text"] {
 }
 
 input { font-family: 'FontAwesome'; }
+
+ul {
+	list-style-type: none;
+}
 
 .search-space {
 	background-color: #F4D35E;
@@ -44,6 +53,7 @@ input { font-family: 'FontAwesome'; }
 .artwork {
 	float: left;
 	width: 20%;
+	margin-right: 5%;
 }
 
 .track-details {
