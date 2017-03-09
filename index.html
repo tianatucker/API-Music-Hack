@@ -7,18 +7,27 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+	<script src="https://use.fontawesome.com/58a0820d2f.js"></script>
 	<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="apps/app.js"></script>
+	<!--<script language="JavaScript" type="text/javascript" src="apps/app.js"></script>-->
 </head>
 <body>
 <div class="search-space">
 	<h1>Music Discovery</h1>
-	<h4>Powered by [Soundcloud logo]</h4>
 <form id="search-term">
-	<input type="text" name="" placeholder="Search..." id="query"/>
+	<input type="text" name="" placeholder="&#xf002; Search" id="query" size="40"/>
 </form>
+	<a href="www.soundcloud.com"><img src="img/bySoundcloud.png" alt="Powered by SoundCloud" class="powered"></a>
 </div>
 <div id="search-results">
+	<h3>Results</h3>
+		<div class="result-item">
+			<a href="www.soundcloud.com"><img src="https://i1.sndcdn.com/artworks-000164728211-xmdjey-t500x500.jpg" alt="Powered by SoundCloud" class="artwork"></a>
+			<div class="track-details">
+				<h4>Title</h4>
+				<h4>Artist Name</h4>
+			</div>
+		</div>
 </div>
 </body>
 </html>

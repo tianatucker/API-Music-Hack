@@ -1,16 +1,53 @@
 body {
-  background-color: #C9F9FF;
+  background-color: #D7D7D3;
   font-family: 'Playfair Display', serif;
-  text-align: center;
+}
+
+h1, h2, h3 {
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   color: #000000;
 }
 
 li {
   font-size: 1.5em;
   margin: 0 25%;
+}
+
+input[type="text"] {
+	padding: .5em;
+}
+
+input { font-family: 'FontAwesome'; }
+
+.search-space {
+	background-color: #F4D35E;
+	padding: 4% 0% 4% 0%;
+	text-align: center;
+}
+
+.mini-title {
+	margin-top: inherit;
+}
+
+.powered {
+	padding-top: 1%;
+}
+
+.result-item {
+	margin: 5% 30%;
+}
+
+.artwork {
+	float: left;
+	width: 20%;
+}
+
+.track-details {
+	float: left;
+	text-align: initial;
+	padding-left: 10%;
 }
