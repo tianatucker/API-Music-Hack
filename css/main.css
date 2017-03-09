@@ -1,0 +1,16 @@
+body {
+  background-color: #C9F9FF;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+li {
+  font-size: 1.5em;
+  margin: 0 25%;
+}
